@@ -1,5 +1,12 @@
 [tool.black]
 line-length = 79  # Change 88 to your desired line length
+exclude = '''
+/(
+    \.venv
+)/
+'''
 
 [tool.isort]
 profile = "black"
+ 
+
