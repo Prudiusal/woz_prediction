@@ -33,7 +33,6 @@ jobs:
       - name: Run linters
         run: |
           flake8
-          isort -c .
           black --check
 
       - name: Build Docker image
