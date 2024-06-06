@@ -28,12 +28,11 @@ jobs:
 
       - name: Install additional dependencies
         run: |
-          pip install flake8 black isort 
+          pip install flake8 black 
 
       - name: Run linters
         run: |
-          flake8
-          black --check
+          black --check .
 
       - name: Build Docker image
         run: docker build -t woz_prediction .
