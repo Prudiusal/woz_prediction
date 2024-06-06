@@ -1,0 +1,5 @@
+curl -X GET 'http://localhost:52000/api/get_woz_value?single=10&married_no_kids=5&not_married_no_kids=2&married_with_kids=8&not_married_with_kids=3&single_parent=1&other=0&total=29'
+curl -X GET 'http://localhost:52000/api/get_woz_value?single=xxx&married_no_kids=5&not_married_no_kids=2&married_with_kids=8&not_married_with_kids=3&single_parent=1&other=0&total=29'
+curl -X GET 'http://localhost:52000/api/get_woz_value?&married_no_kids=5&not_married_no_kids=2&married_with_kids=8&not_married_with_kids=3&single_parent=1&other=0&total=29'
+curl -X GET 'http://localhost:52000/api/get_woz_value?single=100&married_no_kids=500&not_married_no_kids=2&married_with_kids=8&not_married_with_kids=3&single_parent=1&other=0&total=29'
+
